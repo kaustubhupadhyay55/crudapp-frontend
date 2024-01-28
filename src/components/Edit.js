@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink, useParams, useNavigate } from 'react-router-dom'
 const Edit = () => {
-
   const navigate=useNavigate("");
 
   const [curr, set] = useState({

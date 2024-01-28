@@ -13,10 +13,10 @@ function App() {
     <Navbar></Navbar>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/register' element={<Register/>}/>
-        <Route path='/edit/:id' element={<Edit/>}/>
-        <Route path='/view/:id' element={<Detail/>}/>
+        <Route path={'/'} element={<Home/>}/>
+        <Route path={'/register'} element={<Register/>}/>
+        <Route path={'/edit/:id'} element={<Edit/>}/>
+        <Route path={'/view/:id'} element={<Detail/>}/>
       </Routes>
     </BrowserRouter>
        

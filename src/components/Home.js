@@ -5,7 +5,6 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {
-
     const [getuserdata, setuserdata] = useState([]);
     console.log(getuserdata);
     
