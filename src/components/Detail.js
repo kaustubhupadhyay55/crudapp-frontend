@@ -20,7 +20,7 @@ const Detail = () => {
   console.log(id);
   const getdata = async () => {
 
-    const res = await fetch(`/getuser/${id}`, {
+    const res = await fetch(`https://crudapp-backend-6pgz.onrender.com/getuser/${id}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
@@ -45,7 +45,7 @@ const Detail = () => {
   },[]);
    
   const deleteuser=async(id)=>{
-    const res2=await fetch(`/deleteuser/${id}`,{
+    const res2=await fetch(`https://crudapp-backend-6pgz.onrender.com/deleteuser/${id}`,{
         method:"DELETE",
         headers:{
             "Content-Type":"application/json"

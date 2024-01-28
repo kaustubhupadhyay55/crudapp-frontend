@@ -26,7 +26,7 @@ const Register = () => {
    const addinpdata=async(e)=>{
     e.preventDefault();
     const {name,email,age,mobile,work,address,desc}=curr;
-    const res=await fetch("/register",{
+    const res=await fetch("https://crudapp-backend-6pgz.onrender.com/register",{
       method:"POST",
       headers:{
         "content-Type":"application/json"
